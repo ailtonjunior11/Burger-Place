@@ -14,6 +14,7 @@ function formatCurrency(value) {
     return newValue
 
 }
+
 function showAll(productArray) {
     let myLi = ""
 

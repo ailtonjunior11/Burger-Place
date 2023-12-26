@@ -81,3 +81,17 @@ p {
     font-weight: bold;
     color: #aaff00;
 }
+
+.button-reload {
+
+    background-color: #F17229;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 55px;
+    width: 110px;
+}
