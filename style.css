@@ -36,7 +36,7 @@ button {
     padding: 10px;
     cursor: pointer;
     font-weight: bold;
-    width: 110px;
+    width: 115px;
 }
 
 button:hover {
@@ -92,6 +92,79 @@ p {
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    height: 55px;
+    height: 40px;
     width: 110px;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    body {
+
+        background-color: #3f8b56;
+        background-image: none;
+        background-size: auto;
+        background-position: top;
+    }
+
+
+    .conteiner-buttons {
+
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    button {
+
+        background-color: #F17229;
+        color: #ffffff;
+        font-size: 13px;
+        width: 120px;
+    }
+
+    button:hover {
+
+        opacity: 1;
+    }
+
+
+    .button-reload {
+
+        background-color: #000000;
+        font-size: 13px;
+        height: 40px;
+    }
+
+    ul {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 25px 8%;
+    }
+
+    li {
+
+        border: 1px solid #aaff00;
+        background: #00000079;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+
+    p {
+
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    img {
+
+        width: 100%;
+        border-radius: 10px;
+        margin: 5px auto;
+    }
 }
